@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-image: url('background.jpg'); 
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: #f4c069;
+}
+
+
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f4c069;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 5px 15px;
+  border-radius: 6px;
+}
+
+/* الحاوية العامة */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  padding-left: 50px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* صندوق تسجيل الدخول */
+.form-box {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px 40px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+/* عنوان الصفحة */
+form h2 {
+  margin-bottom: 15px;
+  color: #f4c069;
+}
+
+/* النصوص فوق الحقول */
+form label {
+  font-size: 14px;
+  color: #fff;
+}
+
+/* الحقول */
+form input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* زر الدخول */
+form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #f4c069;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* نسيت كلمة المرور */
+.forgot {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.forgot a {
+  color: #f4c069;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+/* رابط التسجيل */
+.login-link {
+  margin-top: 15px;
+  color: #fff;
+  font-size: 13px;
+  text-align: center;
+}
+
+.login-link a {
+  color: #f4c069;
+  text-decoration: none;
+}

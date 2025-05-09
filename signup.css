@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-image: url('background.jpg'); 
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: #f4c069;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  padding-left: 50px;
+  background-color: rgba(0, 0, 0, 0.6); /* Optional dark overlay */
+}
+
+.form-box {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px 40px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.form-box h1 {
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #f4c069;
+}
+
+.form-box h1 span {
+  font-size: 16px;
+  display: block;
+  color: #ccc;
+}
+
+form h2 {
+  margin-bottom: 15px;
+  color: #f4c069;
+}
+
+form label {
+  font-size: 14px;
+  color: #fff;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 20px;
+  border: none;
+  border-radius: 5px;
+}
+form select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #f4c069;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-link {
+  margin-top: 15px;
+  color: #fff;
+  font-size: 13px;
+}
+
+.login-link a {
+  color: #f4c069;
+  text-decoration: none;
+}
